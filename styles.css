@@ -62,7 +62,7 @@ nav li{
     height: 150px; 
 }
 
-.images img :hover{
+.images img:hover{
     transform: rotateY(150deg);
 }
 
@@ -345,3 +345,4 @@ footer{
         height: 300px;
     }
 }
+
