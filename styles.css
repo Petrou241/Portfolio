@@ -270,4 +270,78 @@ footer p{
 }
 footer{
     background: black;
+
+}
+        @media screen and (max-width: 768px) {
+
+    /* Menu */
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav li {
+        padding: 10px 0;
+    }
+
+    /* Section bio */
+    .bio {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .texte {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .images img {
+        width: 150px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    /* Compétences */
+    .compétences .conteneur {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .compétences .box {
+        width: 90%;
+    }
+
+    /* Projets */
+    .list-pro {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pro {
+        width: 90%;
+    }
+
+    .pro img {
+        width: 100%;
+    }
+
+    /* Formation */
+    .etudecole {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ecole {
+        width: 90%;
+    }
+
+    /* Contact */
+    .forme-image {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
 }
